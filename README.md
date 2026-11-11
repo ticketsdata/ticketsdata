@@ -2,7 +2,7 @@
 
 **Real-time event and ticketing data API.** Live listings, prices, fees and seat-level inventory from ten primary and secondary ticket marketplaces, delivered as clean JSON through one REST API.
 
-[Website](https://ticketsdata.com) · [API Docs](https://ticketsdata.com/docs) · [Pricing](https://ticketsdata.com/pricing) · [Marketplaces](https://ticketsdata.com/marketplaces) · [Postman](https://www.postman.com/ticketsdata)
+[Website](https://ticketsdata.com) · [API Docs](https://ticketsdata.com/docs) · [Postman Docs](https://documenter.getpostman.com/view/60126198/2sBYHaNGXz) · [Postman Workspace](https://www.postman.com/ticketsdata) · [Pricing](https://ticketsdata.com/pricing) · [Marketplaces](https://ticketsdata.com/marketplaces)
 
 ## What TicketsData API does
 
@@ -34,6 +34,8 @@ curl -G "https://ticketsdata.com/fetch" \
   --data-urlencode "platform=ticketmaster" \
   --data-urlencode "event_url=<EVENT_URL>"
 ```
+
+**Prefer Postman?** Open the [TicketsData API collection](https://documenter.getpostman.com/view/60126198/2sBYHaNGXz), fork it, set the `username` and `password` variables to your account email and password, and run any endpoint.
 
 ## Contact
 
